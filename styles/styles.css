@@ -1,0 +1,270 @@
+
+a {
+	color: #fdfdfd;
+	padding: 8px 0;
+	text-decoration: none;
+}
+body {
+	font-family: 'Open Sans', Helvetica, Arial;
+	font-size: 16px;
+	margin: 0;
+}
+
+.animated{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+    background: linear-gradient(#1497be, #1c2aec);
+	color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+}
+
+@keyframes text {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+h1 {
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+header {
+	background: #222;
+	padding: 10px 0;
+	width: 100%;
+}
+li {
+	color: #fff;
+	list-style: none;
+	padding: 12px;
+}
+li:hover {
+	background: rgba(0,0,0,.25);
+}
+li a {
+	display: inline;
+}
+nav {
+	background: #08c;
+	text-align: center;
+	width: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.icon-reorder {
+	cursor: pointer;
+	font-family: 'icons';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-reorder:before {
+	content: "\e600";
+}
+
+/* Aquí viene la magia */
+
+/* En resoluciones mayores a 450px */
+@media screen and (min-width: 450px) {
+	a {
+		display: none;
+	}
+	li {
+		display: inline-block;
+	}
+	ul {
+		display: block !important;
+	}
+}
+
+/* En resoluciones menores a 450px */
+@media screen and (max-width: 449px){
+	a {
+		display: block;
+	}
+	ul {
+		display: none;
+	}
+}
+
+.one{
+    background-color: rgba(0, 136, 204, 0.216);
+}
+
+.ini{
+    width: 700px;
+    height: 300px;
+}
+
+
+.letra{
+    font-family: cursive;
+}
+
+.two{
+    background-color: rgba(0, 78, 204, 0.337);
+}
+
+.juan{
+    color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(127, 168, 255, 0.685);
+    
+}
+
+.banano{
+    font-family: cursive;
+}
+
+
+.platano{
+    border-radius: 30px;
+    width: 700px;
+}
+
+.mazorca{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+    background: linear-gradient(#1497be, #1c2aec);
+	color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+
+}
+
+.fideo{
+    background-color: rgba(132, 51, 145, 0.511);
+}
+
+.migue{
+    border-radius: 40px;
+    width: 600px;
+    height: 300px;
+}
+
+
+.toni{
+    background-color: aquamarine;
+}
+
+.trees{
+    color: rgba(0, 0, 0, 0.364);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cb1616c1;
+}
+
+.texto{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rojo{
+	background-color: #1c2aec82;
+}
+
+.juan{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+    background: linear-gradient(#1497be, #1c2aec);
+	color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+
+}
+
+.azul{
+	background-color: #1c73ec77;
+}
+
+.head{
+	border-radius: 40px;
+	width: 700px;
+}
+
+
+.miguee{
+	background-color: rgba(237, 187, 122, 0.641);
+}
+
+
+.letra{
+	font-family: cursive;
+}
+
+
+.okam{
+	width: 600px;
+	height: 280px;
+	border-radius: 40px;
+}
+
+.papa{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+    background: linear-gradient(#1497be, #1c2aec);
+	color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+}
+
+
+.orange{
+	background-color: peru;
+}
+
+
+.frit{
+	font-family: cursive;
+}
+
+
+
+.tecladoo{
+	border-radius: 40px;
+	height: 400px;
+}
+
+
+.esperando{
+	height: 400px;
+	width:700px;
+	border-radius: 40px;
+}
+
+
+.chaco{
+	font-family: cursive;
+}
+
+.verde{
+	background-color: #ca1d1d84;
+}
+
+
+.pixe{
+	border-radius: 40px;
+	height: 400px;
+	width: 700px;
+}
